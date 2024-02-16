@@ -1,0 +1,33 @@
+.container {
+    border-radius: 5px;
+    width: 100vw;
+    height: 100vh;
+    background: #FFBC97;
+    position: relative;
+  }
+  
+  .resizeable {
+    border: 2px solid #4b5563;
+    background-color: #222222;
+    border-radius: 3px;
+    display: flex;
+    justify-content: right;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .resizer {
+    position: static;
+    background: black;
+  }
+  .resizer:hover{
+    opacity: 0.6;
+  }
+  
+  .resizer-r {
+    cursor: col-resize;
+    height: 100%;
+    right: 0;
+    top: 0;
+    width: 3px;
+  }
