@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+<div align="center">
+    <h1>Colne Spotify</h1>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAY1BMVEUe12D///8A1VcA1FEV1l2578f7/vx645gL1lqt7b7A8c1S3XxZ3oH3/fmH5aHO9NhH3Hbe9+XJ89Rf34Xy/PVo4IvV9d7k+err+u8x2WoA00qP56el67lx4pI/2nG17sOW6K3Qi15MAAAB8ElEQVRIie1W2XKDMAw0kgHbnAkJBEgI//+VlbkPQ1O/dDrTfYW1tFpJNmP/+APgAgARQPAfsQDTWKokUTJOET7lcgzcyJkQuQF+RMXs4mxwyfBbmuDXLU3jysU5D0LPxHMcL4TTNH0zTcM/SRdOeMQ8jCnCM57jhEc6+YG+SeeBK2is5xJXo0yezX9ERU4obtsUMlNM7H3Pn69GVDigzGr3MRMvhpA80F8eDFd9zanZsYzzkRnsQ4KrP9S65FzQaGiI/gwusJQ90d1bgl1fuxUgNK/6+Vbq/Wz9YMiAA1Od+F2uPO2PVG2+rshDxQzJQF51+abbXEV8YkP+Iip2WuJtE4Cc//OKxJVPyja/TXFf0LsltyJBjRWv025naCCyuxzcGASoLRGT4eiKNgWZoMFJD7nRyIXqZFudkVhUgmwP/bqt43sj9MLhAK13SJxSVfX1Ngco5B2ICzCuk12qy+Ks4b0b5NOk7oqztcOLolmZKkclezvGBtCO1/eGigKCpb4sVjU1NMDQcqS+giWwbBeSDS03NDkNa6Vnqe9VWuNIfsTzejY0eT9WupDLCJ6ibgOYmIaxGgd5h1uM1XiWaZBXq2ONYtoBxtVhvazs16P9Qra+AuwvHftrzv5iZdZXObN/PDDr50rPtXog/eO38AXQyxfVWzZX3wAAAABJRU5ErkJggg==">
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##
 
-Currently, two official plugins are available:
+Es un proyecto que realize para practicar ReactJS:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Vista previa de la Aplicacion
 
-## Expanding the ESLint configuration
+![Vista Previa de App](./public/vistaprevia.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Como ejecutar
 
-- Configure the top-level `parserOptions` property like this:
+- Comandos
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+npm install       # Instala las dependencias
+npm run dev       # Inicia la aplicación
 ```
+**¡Importante!**: Es necesario el Bearer Token de Spotify
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+*Nota*: Consiguelo en el suiguiente enlace.
+
+- https://developer.spotify.com
