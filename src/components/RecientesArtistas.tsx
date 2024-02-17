@@ -13,7 +13,8 @@ export default function RecientesArtistas({hiddenElements, setArtist}:PropsRecie
     return(
         <>
               <div className="grow overflow-y-auto p-1">
-                <div className={`grid ${hiddenElements > 250 ? "grid-cols-2" : "grid-cols-1"} gap-3`}>
+                <div className={`grid ${hiddenElements > 250 ? "grid-cols-2" : "grid-cols-1"} gap-3 place-items-center`}>
+                
                 <CardView
                 id_album=''
                 srcImg={BadBunny}

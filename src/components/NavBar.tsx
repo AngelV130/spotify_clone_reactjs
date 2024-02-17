@@ -10,7 +10,7 @@ export default function NavBar({setArtist}:{setArtist:(artist:string)=>void}){
     return(
         <>
             <Resize position={"right"} className="[grid-area:aside]" maxWidth={280} minWidth={150} onResize={setAncho}>
-                <div className="p-2 flex flex-col h-full">
+                <div className="p-2 flex flex-col h-full overflow-hidden">
                     <Navegacion />
 
                 <section className="flex flex-col mt-5 h-full">

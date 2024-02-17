@@ -6,7 +6,7 @@ export default function Navegacion()
         <>
             <section>
               <ul>
-                <li><p className="text-sm cursor-pointer hover:border-b inline-block border-black">Home</p></li>
+                <li><p className="text-sm cursor-pointer hover:border-b inline-block border-white">Home</p></li>
                 {/* <li><p className="text-sm cursor-pointer hover:border-b inline-block border-black">Search</p></li> */}
               </ul>
             </section>
